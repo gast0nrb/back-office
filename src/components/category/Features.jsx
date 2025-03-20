@@ -9,7 +9,7 @@ const Features = () => {
       <div className="flex justify-center text-sm">
         <button className="pt-0.5 flex"
         onClick={(e)=> setShow(!show)}>
-            {show ? "Mostrar caracteristica" :"Esconder nueva caracteristica" }
+            {show ? "Agregar caracteristica" :"Cancelar nueva caracteristica" }
           <img className="w-5" src={show ? "/add.svg" : "/close.svg"} alt="" />
         </button>
       </div>

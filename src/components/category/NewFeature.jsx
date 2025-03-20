@@ -21,9 +21,9 @@ const NewFeature = ({show}) => {
             value=""
             placeholder="Ingresa un valor para la caracteristica"
           />
-          <button className="opacity-40 hover:opacity-100 flex mx-auto gap-0.5 rounded-xs px-10 bg-neutral-400 font-black text-xs">
+          <button className="opacity-40 hover:opacity-100 text-nowrap flex mx-auto gap-0.5 rounded-xs px-10 bg-neutral-400 font-black text-xs">
             Agregar cualidad
-            <img className="w-5" src="/ok.svg" alt="" />
+            <img className="w-4" src="/ok.svg" alt="" />
           </button>
         </div>
       </div>
