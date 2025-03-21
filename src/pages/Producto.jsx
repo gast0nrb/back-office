@@ -1,5 +1,6 @@
 import Wrap from "../components/Wrap"
 import Confirm from "../components/product/Confirm"
+import WrapFeaturesProduct from "../components/product/WrapFeaturesProduct"
 import WrapProduct from "../components/product/WrapProduct"
 import WrapProduct2 from "../components/product/WrapProduct2"
 
@@ -11,6 +12,7 @@ const Producto = ({codigo="000001"}) => {
             <form className="mb-5" action="">
                 <WrapProduct/>  
                 <WrapProduct2/>
+                <WrapFeaturesProduct/>
                 <Confirm/>
             </form>
         </>

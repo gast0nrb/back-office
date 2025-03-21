@@ -15,15 +15,8 @@ const NewFeature = ({show}) => {
           </select>
         </div>
         <div>
-          <input
-            className="text-xs text-center border-1 border-neutral-400 bg-neutral-200 rounded-xs my-1 w-11/12"
-            type="text"
-            value=""
-            placeholder="Ingresa un valor para la caracteristica"
-          />
-          <button className="opacity-40 hover:opacity-100 text-nowrap flex mx-auto gap-0.5 rounded-xs px-10 bg-neutral-400 font-black text-xs">
+          <button className="opacity-40 hover:opacity-100 mx-auto gap-0.5 rounded-xs bg-neutral-400 font-black xs:w-8/12 md:w-4/12">
             Agregar cualidad
-            <img className="w-4" src="/ok.svg" alt="" />
           </button>
         </div>
       </div>

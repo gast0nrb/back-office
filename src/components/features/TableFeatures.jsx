@@ -8,11 +8,10 @@ const TableFeatures = () => {
                     <table className="text-xs mx-auto w-full text-center">
                        <tr className="text-xs">
                         <th className="xs:text-nowrap md:text-wrap"> Cualidad</th>
-                        <th>Valor</th>
                         </tr> 
                         <RowFeature/>
-                        <RowFeature category="Ampolleta" nameFeature="Color" valueFeature="Verde"/>
-                        <RowFeature category="Plumillas" nameFeature="Material" valueFeature="Silicona"/>
+                        <RowFeature category="Ampolleta" nameFeature="Color"/>
+                        <RowFeature category="Plumillas" nameFeature="Material"/>
                         <RowFeature/>
                     </table>
             </div>
