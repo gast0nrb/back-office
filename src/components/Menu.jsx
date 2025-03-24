@@ -1,8 +1,12 @@
+import { useState } from "react";
+import CollapsedMenu from "./CollapsedMenu";
+
 const Menu = () => {
-  return(
+  const [show, setShow] = useState(false);
+  return (
     <div className="">
-      <button>
-        <img className="mt-0.5 w-6" src="/menu.svg" alt="menu"/>
+      <button onClick={(e) => setShow(!show)}>
+        <img className="mt-0.5 w-6" src="/menu.svg" alt="menu" />
       </button>
       <div hidden>
         <h3>Menu</h3>
@@ -25,8 +29,9 @@ const Menu = () => {
           <li>Crear usuario</li>
         </ul>
       </div>
+      <CollapsedMenu show={show} setShow={setShow} />
     </div>
-  )
-}
+  );
+};
 
 export default Menu;

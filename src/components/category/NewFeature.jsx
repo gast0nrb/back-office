@@ -1,7 +1,10 @@
-const NewFeature = ({show}) => {
+const NewFeature = ({ show }) => {
   return (
     <>
-      <div className="mx-auto text-center w-11/12 bg-zinc-200 drop-shadow-lg mb-2" hidden={show}>
+      <div
+        className="mx-auto text-center w-11/12 bg-zinc-200 drop-shadow-lg mb-2"
+        hidden={show}
+      >
         <h3 className="font-bold">Nueva caracteristica</h3>
         <div>
           <select
