@@ -9,7 +9,7 @@ const Categorias = () => {
       <Wrap />
       <h1 className="text-center text-xl font-bold">Listado categorias</h1>
       <FindByText />
-      <TableCategories />
+      <TableCategories url={"/categoria"}/>
       <Pagination />
     </>
   );

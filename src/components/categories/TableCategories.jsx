@@ -1,6 +1,6 @@
 import ItemCategories from "./ItemCategories";
 
-const TableCategories = ({ name = "categoria" }) => {
+const TableCategories = ({ url = "/categoria" }) => {
   return (
     <table className="w-11/12 mx-auto text-sm">
       <tr>
@@ -8,12 +8,11 @@ const TableCategories = ({ name = "categoria" }) => {
         <th className="border-b-2">Nombre</th>
         <th className="border-b-2 text-nowrap">Ver {name}</th>
       </tr>
-      <ItemCategories />
-      <ItemCategories />
-      <ItemCategories />
-      <ItemCategories />
-      <ItemCategories />
-      <ItemCategories />
+      <ItemCategories url={name}/>
+      <ItemCategories url={name}/>
+      <ItemCategories url={name}/>
+      <ItemCategories url={name}/>
+      <ItemCategories url={name}/>
     </table>
   );
 };

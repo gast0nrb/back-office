@@ -9,7 +9,6 @@ const Categoria = () => {
       <Wrap />
       <h2 className="text-center font-bold text-xl">CATEGORIA</h2>
       <CategoryValues />
-      <Features />
       <Confirm />
     </>
   );

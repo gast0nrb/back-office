@@ -9,7 +9,7 @@ const Subcategorias = () => {
       <Wrap />
       <h1 className="text-center text-xl font-bold">Lista de subcategorias</h1>
       <FindByText />
-      <TableCategories name={"subcategoria"} />
+      <TableCategories url={"/subcategoria"} />
       <Pagination />
     </>
   );
